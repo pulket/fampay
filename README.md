@@ -80,4 +80,15 @@ cd fampay
 flutter pub get
 
 # Run the application
-flutter run
+
+```
+### Outputs
+![Screenshot_20241221_153218](https://github.com/user-attachments/assets/1eee88d1-2f0e-46c0-9ebf-838fda9a3172)
+![Screenshot_20241221_153214](https://github.com/user-attachments/assets/9e4ba4b9-f5e2-40a0-b6e6-380261e75cb1)
+![Screenshot_20241221_153209](https://github.com/user-attachments/assets/2f8d3c1b-6767-4cf9-8a99-0abffb4dad3b)
+![Screenshot_20241221_153203](https://github.com/user-attachments/assets/e0d87c68-4978-4ba3-b9ef-caee592b5b62)
+
+### IOS Scren Recording
+https://github.com/user-attachments/assets/66089838-5f33-49f0-b97f-62a9cbe1f50a
+
+
