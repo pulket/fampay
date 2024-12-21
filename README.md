@@ -1,16 +1,83 @@
-# fampay
+# FamPay Contextual Cards 🚀
 
-A new Flutter project.
+## Overview
+A dynamic Flutter application for rendering contextual cards with multiple design patterns and seamless API integration.
 
-## Getting Started
+## 📦 Features
+- Multiple Card Design Types (HC3, HC6, HC5, HC9, HC1)
+- Dynamic Styling
+- API-Driven Rendering
+- Cached Image Support
+- Error Handling
+- Deeplink Integration
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- HTTP
+- Cached Network Image
+- Shared Preferences
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+- Flutter SDK (3.10+)
+- Dart SDK
+- Android Studio/VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📂 Project Structure
+
+```plaintext
+lib/
+├── models/        # Data models
+├── services/      # API & storage logic
+├── widgets/       # UI components
+├── home_screen/   # Home screen implementation
+└── main.dart      # Entry point
+lib/
+├── models/        # Data models
+├── services/      # API & storage logic
+├── widgets/       # UI components
+├── home_screen/   # Home screen implementation
+└── main.dart      # Entry point
+```
+### 📦 Dependencies
+
+```plaintext
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  shared_preferences: ^2.2.1
+
+```
+
+### 🔧 Configuration
+
+```plaintext
+- Update lib/services/api_service.dart with your API endpoint
+- Customize card designs in respective widget files
+
+```
+
+### 📞 Contact
+
+```plaintext
+Pulket - pulket94@gmail.com
+Project Link: https://github.com/pulket/fampay
+```
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/pulket/fampay.git
+
+# Navigate to project directory
+cd fampay
+
+# Install dependencies
+flutter pub get
+
+# Run the application
+flutter run
